@@ -21,5 +21,5 @@ app.use((req, res, next) => {
 
 app.use('/', route);
 
-app.use((req, res) => res.status(400).send({ status: false, message: `'${req.url}' this URL is Invalid.` }));
+app.use((req, res) => res.status(400).json({ status: false, message: `'${req.url}' this URL is Invalid.` }));
 app.listen(PORT, () => console.log(`Express app is running on port ${PORT}`));
