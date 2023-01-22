@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "4ab51cd8-005f-4253-97ed-e70fd7526695",
+		"name": "Project-4",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20527530"
+	},
+	"item": [
+		{
+			"name": "createUrl",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/url/shorten",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"url",
+						"shorten"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getUrl",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
